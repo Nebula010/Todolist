@@ -11,4 +11,5 @@
     <select id="getAll" resultMap="BaseResultMap">
         select * from USER
     </select>
+
 </mapper>

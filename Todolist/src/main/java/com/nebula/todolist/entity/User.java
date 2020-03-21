@@ -1,16 +1,11 @@
 package com.nebula.todolist.entity;
 
+import com.nebula.todolist.common.CommonEntity;
 import lombok.Data;
 
-import java.io.Serializable;
-
 @Data
-public class User implements Serializable {
+public class User extends CommonEntity {
 
-    /**
-     * id
-     */
-    private Integer id;
     /**
      * 用户名
      */
