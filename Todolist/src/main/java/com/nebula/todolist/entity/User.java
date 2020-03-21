@@ -2,9 +2,15 @@ package com.nebula.todolist.entity;
 
 import lombok.Data;
 
-@Data
-public class User {
+import java.io.Serializable;
 
+@Data
+public class User implements Serializable {
+
+    /**
+     * id
+     */
+    private Integer id;
     /**
      * 用户名
      */
